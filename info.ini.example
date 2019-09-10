@@ -5,6 +5,11 @@ keyword3 = your keyword here
 ...
 etc
 
+[OUTPUT]
+; set output method: email|stdout|<filepath>. If filepath exists it will be overwritten
+;output = ./test.txt
+output = stdout
+
 [EMAIL]
 host = Email server
 user = Email User
