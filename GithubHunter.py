@@ -239,5 +239,5 @@ if __name__ == '__main__':
         if out_to == 'stdout': print(plain_result)
         else:
             if os.path.exists(out_to): os.remove(out_to)
-            with open(out_to,'w+',encoding = "utf-8") as f: f.write(plain_result)
+            with open(out_to,'w+',encoding = "utf-8") as f: f.write(result)
             print("[+] Result was written to {}!".format(out_to))
